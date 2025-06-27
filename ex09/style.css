@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+body {
+    background-color: #F08C57;
+}
+
+.cabecalho {
+text-align: center;
+margin: -9px;
+background: linear-gradient(to bottom, #F08C57, #984417);
+}
+
+.menu {
+    text-align: left;
+    h1 {
+        background: linear-gradient(to right, #F08C57, #984417);
+    }
+}
+
+.principal {
+    text-align: center;
+    margin: 0;
+      background-color: white;
+}
+
+.extra {
+    background-color: #F08C57;
+    h2 {
+        background-color: #984417;
+    }
+}
+
+.listas {
+    display: flex;
+    gap: 40px;
+}
